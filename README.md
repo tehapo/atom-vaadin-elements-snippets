@@ -1,5 +1,7 @@
 # Vaadin Elements Snippets for Atom
 
+This Atom package provides snippets for all [Vaadin Elements](https://vaadin.com/elements).
+
 ## Installation
 
 Go to the `Preferences` in your Atom Editor and search for "Vaadin Elements Snippets".
