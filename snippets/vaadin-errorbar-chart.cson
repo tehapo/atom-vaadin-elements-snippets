@@ -1,0 +1,25 @@
+'.text.html':
+  'Vaadin Error Bar Chart':
+    'prefix': 'vaadin-errorbar-chart'
+    'body': """
+      <vaadin-errorbar-chart>
+        <title>${1:Rainfall}</title>
+        <x-axis>
+          <title>${2:Month}</title>
+        </x-axis>
+        <y-axis>
+          <title>${3:Value}</title>
+        </y-axis>
+        <data-series name="Rainfall" type="column">
+          <data>
+            ${4:49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4}
+          </data>
+        </data-series>
+        <data-series name="Rainfall error">
+          <data>
+            ${5:[48, 51], [68, 73], [92, 110], [128, 136], [140, 150], [171, 179], [135, 143], [142, 149], [204, 220], [189,
+            199], [95, 110], [52, 56]}
+          </data>
+        </data-series>
+      </vaadin-errorbar-chart>
+    """

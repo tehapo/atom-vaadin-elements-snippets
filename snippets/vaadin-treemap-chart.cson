@@ -1,0 +1,42 @@
+'.text.html':
+  'Vaadin Treemap Chart':
+    'prefix': 'vaadin-treemap-chart'
+    'body': """
+      <vaadin-treemap-chart>
+        <title>${1:Fibonacci}</title>
+        <color-axis min-color="#ffffff" max-color="#7bb5ef"></color-axis>
+        <data-series>
+          <layout-algorithm>squarified</layout-algorithm>
+          ${2:<data>
+            <point>
+              <value>1</value>
+              <color-value>1</color-value>
+            </point>
+            <point>
+              <value>1</value>
+              <color-value>1</color-value>
+            </point>
+            <point>
+              <value>2</value>
+              <color-value>2</color-value>
+            </point>
+            <point>
+              <value>3</value>
+              <color-value>3</color-value>
+            </point>
+            <point>
+              <value>5</value>
+              <color-value>5</color-value>
+            </point>
+            <point>
+              <value>8</value>
+              <color-value>8</color-value>
+            </point>
+            <point>
+              <value>12</value>
+              <color-value>12</color-value>
+            </point>
+          </data>}
+        </data-series>
+      </vaadin-treemap-chart>
+    """

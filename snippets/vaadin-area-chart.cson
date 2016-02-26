@@ -1,0 +1,20 @@
+'.text.html':
+  'Vaadin Area Chart':
+    'prefix': 'vaadin-area-chart'
+    'body': """
+      <vaadin-area-chart>
+        <title>${1:Fibonacci}</title>
+        <x-axis>
+          <title>${2:Index}</title>
+        </x-axis>
+        <y-axis>
+          <title>${3:Value}</title>
+        </y-axis>
+        <data-series>
+          <data>${4:1, 1, 2, 3, 5, 8, 13, 21, 34}</data>
+        </data-series>
+        <data-series>
+          <data>${5:34, 21, 13, 8, 5, 3, 2, 1, 1}</data>
+        </data-series>
+      </vaadin-area-chart>
+    """

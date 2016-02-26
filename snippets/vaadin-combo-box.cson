@@ -1,0 +1,4 @@
+'.text.html':
+  'Vaadin Combo Box':
+    'prefix': 'vaadin-combo-box'
+    'body': '<vaadin-combo-box label="$0"></vaadin-combo-box>'

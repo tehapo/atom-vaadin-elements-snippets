@@ -1,0 +1,17 @@
+'.text.html':
+  'Vaadin Funnel Chart':
+    'prefix': 'vaadin-funnel-chart'
+    'body': """
+      <vaadin-funnel-chart>
+        <title>${1:Sales funnel}</title>
+        <data-series>
+          <data>
+            ${2:['Website visits', 15654],
+            ['Downloads', 4064],
+            ['Requested price list', 1987],
+            ['Invoice sent', 976],
+            ['Finalized', 846]}
+          </data>
+        </data-series>
+      </vaadin-funnel-chart>
+    """

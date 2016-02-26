@@ -1,0 +1,17 @@
+'.text.html':
+  'Vaadin Bar Chart':
+    'prefix': 'vaadin-bar-chart'
+    'body': """
+      <vaadin-bar-chart>
+        <title>${1:Fibonacci}</title>
+        <x-axis>
+          <title>${2:Index}</title>
+        </x-axis>
+        <y-axis>
+          <title>${3:Value}</title>
+        </y-axis>
+        <data-series>
+          <data>${4:1, 1, 2, 3, 5, 8, 13, 21}</data>
+        </data-series>
+      </vaadin-bar-chart>
+    """

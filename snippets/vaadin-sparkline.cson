@@ -1,0 +1,4 @@
+'.text.html':
+  'Vaadin Sparkline':
+    'prefix': 'vaadin-sparkline'
+    'body': '<vaadin-sparkline data="${1:1, 1, 2, 3, 5, 8, 13, 21}"></vaadin-sparkline>'

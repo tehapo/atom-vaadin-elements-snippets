@@ -1,0 +1,4 @@
+'.text.html':
+  'Vaadin Date Picker':
+    'prefix': 'vaadin-date-picker'
+    'body': '<vaadin-date-picker label="$0"></vaadin-date-picker>'

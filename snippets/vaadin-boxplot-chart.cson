@@ -1,0 +1,23 @@
+'.text.html':
+  'Vaadin Box Plot Chart':
+    'prefix': 'vaadin-boxplot-chart'
+    'body': """
+      <vaadin-boxplot-chart>
+        <title>${1:Observations}</title>
+        <x-axis>
+          <title>${2:X}</title>
+        </x-axis>
+        <y-axis>
+          <title>${3:Y}</title>
+        </y-axis>
+        <data-series>
+          <data>
+            ${4:[760, 801, 848, 895, 965],
+            [733, 853, 939, 980, 1080],
+            [714, 762, 817, 870, 918],
+            [724, 802, 806, 871, 950],
+            [834, 836, 864, 882, 910]}
+          </data>
+        </data-series>
+      </vaadin-boxplot-chart>
+    """

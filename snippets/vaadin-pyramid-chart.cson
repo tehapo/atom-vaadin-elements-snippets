@@ -1,0 +1,17 @@
+'.text.html':
+  'Vaadin Pyramid Chart':
+    'prefix': 'vaadin-pyramid-chart'
+    'body': """
+      <vaadin-pyramid-chart>
+        <title>${1:Sales pyramid}</title>
+        <data-series>
+          <data>
+            ${2:['Website visits', 15654],
+            ['Downloads', 4064],
+            ['Requested price list', 1987],
+            ['Invoice sent', 976],
+            ['Finalized', 846]}
+          </data>
+        </data-series>
+      </vaadin-pyramid-chart>
+    """

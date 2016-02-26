@@ -1,0 +1,20 @@
+'.text.html':
+  'Vaadin Polygon Chart':
+    'prefix': 'vaadin-polygon-chart'
+    'body': """
+      <vaadin-polygon-chart>
+        <title>${1:Height vs Weight}</title>
+        <x-axis>
+          <title>${2:Height}</title>
+        </x-axis>
+        <y-axis>
+          <title>${3:Weight}</title>
+        </y-axis>
+        <data-series>
+          <data>
+            ${4:[153, 42], [149, 46], [149, 55], [152, 60], [159, 70], [170, 77], [180, 70],
+            [180, 60], [173, 52], [166, 45]}
+          </data>
+        </data-series>
+      </vaadin-polygon-chart>
+    """

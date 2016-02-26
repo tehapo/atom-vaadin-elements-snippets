@@ -1,0 +1,28 @@
+'.text.html':
+  'Vaadin Heatmap Chart':
+    'prefix': 'vaadin-heatmap-chart'
+    'body': """
+      <vaadin-heatmap-chart>
+        <title>${1:Fibonacci}</title>
+        <x-axis>
+          <title>${2:Column}</title>
+        </x-axis>
+        <y-axis>
+          <title>${3:Row}</title>
+        </y-axis>
+        <color-axis min="0" min-color="#ffffff" max-color="#3090f0"></color-axis>
+        <data-series>
+          <data>
+            ${4:[0, 0, 1],
+            [0, 1, 1],
+            [0, 2, 2],
+            [1, 0, 3],
+            [1, 1, 5],
+            [1, 2, 8],
+            [2, 0, 13],
+            [2, 1, 21],
+            [2, 2, 34]}
+          </data>
+        </data-series>
+      </vaadin-heatmap-chart>
+    """

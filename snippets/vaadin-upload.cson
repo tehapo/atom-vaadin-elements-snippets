@@ -1,0 +1,4 @@
+'.text.html':
+  'Vaadin Upload':
+    'prefix': 'vaadin-upload'
+    'body': '<vaadin-upload></vaadin-upload>'

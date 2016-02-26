@@ -1,0 +1,30 @@
+'.text.html':
+  'Vaadin Area Spline Range Chart':
+    'prefix': 'vaadin-areasplinerange-chart'
+    'body': """
+      <vaadin-areasplinerange-chart>
+        <title>${1:Temperature}</title>
+        <x-axis>
+          <title>${2:Month}</title>
+        </x-axis>
+        <y-axis>
+          <title>${3:Temperature}</title>
+        </y-axis>
+        <data-series>
+          <data>
+            ${4:[-9.7, 9.4],
+            [-8.7, 6.5],
+            [-3.5, 9.4],
+            [-1.4, 19.9],
+            [0.0, 22.6],
+            [2.9, 29.5],
+            [9.2, 30.7],
+            [7.3, 26.5],
+            [4.4, 18.0],
+            [-3.1, 11.4],
+            [-5.2, 10.4],
+            [-13.5, 9.8]}
+          </data>
+        </data-series>
+      </vaadin-areasplinerange-chart>
+    """

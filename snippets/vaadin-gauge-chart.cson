@@ -1,0 +1,12 @@
+'.text.html':
+  'Vaadin Gauge Chart':
+    'prefix': 'vaadin-gauge-chart'
+    'body': """
+      <vaadin-gauge-chart>
+        <title>${1:Speed}</title>
+        <y-axis min="0" max="200"></y-axis>
+        <data-series>
+          <data>${2:80}</data>
+        </data-series>
+      </vaadin-gauge-chart>
+    """

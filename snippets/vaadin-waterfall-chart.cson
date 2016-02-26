@@ -1,0 +1,36 @@
+'.text.html':
+  'Vaadin Waterfall Chart':
+    'prefix': 'vaadin-waterfall-chart'
+    'body': """
+      <vaadin-waterfall-chart>
+        <title>${1:Fibonacci}</title>
+        <x-axis>
+          <title>${2:Index}</title>
+        </x-axis>
+        <y-axis>
+          <title>${3:Value}</title>
+        </y-axis>
+        <data-series>
+          ${4:<data>
+            <point>
+              <y>2</y>
+            </point>
+            <point>
+              <y>3</y>
+            </point>
+            <point>
+              <y>5</y>
+            </point>
+            <point>
+              <y>-5</y>
+            </point>
+            <point>
+              <y>-3</y>
+            </point>
+            <point>
+              <y>-2</y>
+            </point>
+          </data>}
+        </data-series>
+      </vaadin-waterfall-chart>
+    """
