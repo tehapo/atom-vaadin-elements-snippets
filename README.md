@@ -1,3 +1,7 @@
+# Important
+
+This package is no longer maintained and you should install https://github.com/vaadin/vaadin-elements-snippets-atom instead.
+
 # Vaadin Elements Snippets for Atom
 
 This Atom package provides snippets for all [Vaadin Elements](https://vaadin.com/elements).
